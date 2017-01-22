@@ -3,7 +3,7 @@
 #include <ctime>
 #include <cstdio>
 #include <cstdlib>
-#include <conio.h>
+#include <conio.h> //cerr wymaga
 
 using namespace std;
 
