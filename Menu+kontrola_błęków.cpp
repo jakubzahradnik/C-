@@ -13,9 +13,9 @@ int main()
 	while (wyb != 3)
 	{
 		system("cls");
-		cout << "--------------------------\n1. Dodawanie\n2. Odejmowanie\n3. Zakoäcz\n--------------------------\n";
+		cout << "--------------------------\n1. Dodawanie\n2. Odejmowanie\n3. Zakończ\n--------------------------\n";
 		// wyb=_getch(); zamiast cin >> wyb, spodowuje wybranie opcji bez entera
-		if (!cin >> wyb); // sprawdza czy user nie poda nie inta, wywala bĄd na ekran i zamyka program;
+		if (!cin >> wyb); // sprawdza czy user nie podał nie inta, wywala błąd na ekran i zamyka program;
 		{
 			cerr << "To nie jest liczba!!\n"; //przekierowanie b©du na ekran
 			exit(0);
